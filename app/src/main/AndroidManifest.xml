@@ -10,18 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".EditTextEx"></activity>
-        <activity android:name=".AutoCompleteTextViewEx">
-        </activity>
-        <activity android:name=".VideoViewEx"
+        <activity android:name=".EditTextEx" />
+        <activity android:name=".AutoCompleteTextViewEx" />
+        <activity
+            android:name=".VideoViewEx"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        </activity>
+        <activity android:name=".DataPickerEx"></activity>
+        <activity android:name=".ProgressDialogEx">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
     </application>
 
